@@ -1,0 +1,172 @@
+html, body{
+	min-height: 100vh;
+}
+
+body {
+ color: #000;
+ text-align: center;
+ background: url('video.png');
+ background-size: cover;
+}
+
+div {
+ position: relative;
+ border: 1px solid #939393;
+ margin-top:50px;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+.Text {
+  background: yellow;
+  width: 400px;
+  height: 150px;
+  margin: auto;
+}
+
+.Podpisatsa {
+  background: DarkTurquoise;
+  width: 300px;
+  margin: auto;
+}
+
+.Vadim {
+width: 800px;
+height: 500px; 
+color: #000; 
+background-size: 100%;
+background-attachment: fixed;
+background-repeat: repeat-y;
+}
+
+.info {
+  background: Yellow;
+  width: 325px;
+  left: 35px;
+}
+
+.pay {
+  background: Yellow;
+  width: 325px;
+  left: 800px;
+}
+
+.xp1 {
+ background: yellow;
+ width: 650px;
+margin: auto;
+ color: blue;
+}
+
+.xp {
+ background: yellow;
+ width: 350px;
+margin: auto;
+ color: blue;
+}
+
+.att {
+  background: Silver;
+  color: Red;
+  width: 750px;
+  left: 25px;
+}
+
+.gip {
+  background: DarkMagenta;
+  max-width: 800px;
+margin: auto;
+}
+
+.telephone1 {
+  background: yellow;
+  width: 450px;
+  height: 250px;
+  margin: auto;
+}
+
+.telephone2 {
+  background: green;
+  width: 350px;
+  margin: auto;
+}
+
+.ki {
+  background: Teal;
+  max-width: 400px;
+  margin: auto;
+}
+
+.menu {
+  background: NavajoWhite;
+  width: 400px;
+  margin: auto;
+}
+
+.Photo1 {
+width: 700px;
+height: 500px;
+}
+
+.Photo2 {
+width: 800px;
+height: 500px;
+}
+
+.Photo3 {
+width: 500px;
+height: 600px;
+}
+
+.music1 {
+  background: yellow;
+  width: 400px;
+  height: 950px;
+  margin: auto;
+}
+
+.music2 {
+  background: DarkTurquoise;
+  width: 300px;
+  margin: auto;
+}
+
+th, td {
+padding:5px;
+font:13pt tahoma; 
+left: 300px;
+}
+
+thead th{
+background:green;
+color:white;
+}
+
+tr:nth-child(2n+1) {
+    background: silver; 
+} 
+   
+tr:nth-child(2n) {
+    background: gray; 
+} 
+  
+tr:hover {
+	background: green;
+}
+tr:hover { 
+background: #fcc; 
+}
+
+td, td:hover del { 
+width: 50px; 
+}
+16:14 04.09.2017
